@@ -1,5 +1,5 @@
 ---
-title: Release Title 1
+title: Something Good
 layout: release
 release-date: 18th September 2015
 label: Something New
