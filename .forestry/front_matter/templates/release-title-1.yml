@@ -1,0 +1,72 @@
+---
+label: Release Title 1
+hide_body: 
+is_partial: 
+fields:
+- name: layout
+  label: Layout
+  type: text
+  hidden: false
+  default: ''
+- name: title
+  label: Title
+  type: text
+  hidden: false
+  default: ''
+- name: release-date
+  label: Release date
+  type: text
+  hidden: false
+  default: ''
+- name: label
+  label: Label
+  type: text
+  hidden: false
+  default: ''
+- name: format
+  label: Format
+  type: text
+  hidden: false
+  default: ''
+- name: links
+  label: Links
+  type: field_group_list
+  fields:
+  - name: category
+    label: Category
+    type: tag_list
+    hidden: false
+    default: ''
+  - name: url
+    label: Url
+    type: text
+    hidden: false
+    default: ''
+  hidden: false
+  default: ''
+- name: tracklist
+  label: Tracklist
+  type: field_group_list
+  fields:
+  - name: title
+    label: Title
+    type: text
+    hidden: false
+    default: ''
+  - name: duration
+    label: Duration
+    type: text
+    hidden: false
+    default: ''
+  hidden: false
+  default: ''
+- name: main-image
+  label: Main image
+  type: text
+  hidden: false
+  default: ''
+- name: back-image
+  label: Back image
+  type: text
+  hidden: false
+  default: ''
