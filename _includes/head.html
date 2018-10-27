@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<!-- Global site tag (gtag.js) - Google Analytics 
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-XXXXX"></script>
+
+
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-XXXXX');
+</script>
+
+-->
+
+<meta http-equiv="Cache-control" content="private" max-age="604800">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Label Discography" />
+<meta property="og:title" content="Label Discography" />
+<meta property="og:description" content="Label Discography" />
+<meta property="og:image" content="{{ site.url }}/assets/img/facebook-image.jpg" />
+<link rel="shortcut icon" href="{{ site.url }}/favicon.ico" type="image/x-icon" />
+    <meta charset="UTF-8">
+    <title>Label Discography</title>
+
+        {% if site.css == 'inline' %}
+        <style>
+            {% capture inline-styles %}
+            {% include style.scss %}
+            {% endcapture %}
+            {{ inline-styles | scssify }}
+        </style>
+        {% else %}
+        <link href="/css/style.css" rel="stylesheet">
+        {% endif %}
+</head>

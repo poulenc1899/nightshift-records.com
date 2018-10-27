@@ -1,0 +1,38 @@
+{% include head.html %}
+{% include nav-floating.html %}
+
+<body>
+
+<section class="tl f4 pa4 w-100" id="releases">
+
+{% for release in site.discography reversed %}
+    <article class="pv3 center w-third tc release">
+        <a href="{{ release.url }}" data-title="{{ release.title }}" data-date="{{ release.release-date }}" class="">
+            <div class="front">
+                <img class="" src="{{ site.baseurl }}{{ release.main-image }}">
+            </div>
+            <div class="back dn">
+                <img class="" src="{{ site.baseurl }}{{ release.back-image }}">
+            </div>
+        {{ release.title }}
+        </a>
+    </article>
+{% endfor %}
+
+
+</section>
+
+<section class="tl f4 pa4" id="links-footer">
+    <div class="pv1">
+        <a target="_blank" href="https://www.facebook.com/privateagendamusic/" class="">Soundcloud</a>
+    </div>
+    <div class="pv1">
+        <a target="_blank" href="https://www.instagram.com/private.agenda/" class="">Bandcamp</a>
+    </div>
+    <div class="pv1">
+        <a target="_blank" href="mailto:email@gmail.com" class="">email@gmail.com</a>
+    </div>
+</section>
+
+</body>
+{% include footer.html %}
