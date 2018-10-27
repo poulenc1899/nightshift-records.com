@@ -70,3 +70,5 @@ fields:
   label: Back Image
   description: The reverse side of the record, shown on the homepage when you hover
     over the front-side image
+pages:
+- _discography/2015-09-18-release-title-2.md
