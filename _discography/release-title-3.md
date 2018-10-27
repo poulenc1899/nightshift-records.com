@@ -2,7 +2,7 @@
 title: Release Title 3
 date: 2018-10-27 21:40:02 +0000
 layout: ''
-label: Something
+label: Something new
 format: Vinyl, Digital
 links:
 - url: spotify.com
