@@ -1,5 +1,5 @@
 ---
-label: Release Title 1
+label: Release
 hide_body: false
 is_partial: false
 fields:
@@ -13,6 +13,7 @@ fields:
   type: text
   hidden: false
   default: ''
+  description: Shown on the homepage and release page
 - name: label
   label: Label
   type: text
@@ -23,6 +24,7 @@ fields:
   type: text
   hidden: false
   default: ''
+  description: e.g. Vinyl, Digital
 - name: links
   label: Links
   type: field_group_list
@@ -61,8 +63,10 @@ fields:
 - type: file
   name: main-image
   label: Main Image
-  description: Picture of the front side of the record
+  description: Picture of the front side of the record, shown on the homepage and
+    release page
 - type: file
   name: back-image
   label: Back Image
-  description: The reverse side of the record
+  description: The reverse side of the record, shown on the homepage when you hover
+    over the front-side image
