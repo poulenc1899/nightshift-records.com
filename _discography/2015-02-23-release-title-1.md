@@ -1,8 +1,8 @@
 ---
-title: OPffeije
+title: Cijv - EGG 55-X
 layout: release
 release-date: 18th October 2016
-label: International Feel
+label: Scocoo
 format: Vinyl 12-inch, Digital
 links:
 - category: Buy Physical
