@@ -1,5 +1,5 @@
 ---
-title: Bad
+title: OPffeije
 layout: release
 release-date: 18th October 2016
 label: International Feel
