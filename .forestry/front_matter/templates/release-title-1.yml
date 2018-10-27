@@ -29,12 +29,10 @@ fields:
   label: Links
   type: field_group_list
   fields:
-  - name: category
-    type: tag_list
-    hidden: false
-    default: ''
-    label: Link Text
+  - type: text
     description: e.g. Buy physical on Juno, Stream on Spotify
+    label: Link Text
+    name: category
   - type: text
     name: url
     label: URL
