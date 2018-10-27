@@ -3,7 +3,7 @@ title: Something Good
 layout: release
 release-date: 18th September 2015
 label: Something New
-format: Vinyl 12-inch, Digital, A
+format: Vinyl 12-inch, Digital, A, B
 links:
 - category: Buy Physical
   url: https://www.juno.co.uk/products/private-agenda-paralysed/586063-01/
