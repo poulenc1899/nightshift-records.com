@@ -3,7 +3,7 @@ title: Release Title 1
 layout: release
 release-date: 18th September 2015
 label: Something New
-format: Vinyl 12-inch, Digital
+format: Vinyl 12-inch, Digital, A
 links:
 - category: Buy Physical
   url: https://www.juno.co.uk/products/private-agenda-paralysed/586063-01/
@@ -22,4 +22,10 @@ main-image: assets/img/2-front.jpg
 back-image: assets/img/2-back.jpg
 
 ---
-No one fucking liked it. Here's a review from [Test Pressing](http://testpressing.org/).
+Berliner Verkehrsbetriebe (BVG)  
+Anstalt des öffentlichen Rechts  
+Holzmarktstraße 15-17  
+10179 Berlin  
+Telefon: +49 30 256-0  
+Telefax: +49 30 256-49256  
+[www.BVG.de](http://www.bvg.de/) [info@bvg.de](mailto:info@bvg.de)
