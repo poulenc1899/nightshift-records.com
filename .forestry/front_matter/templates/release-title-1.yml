@@ -1,20 +1,15 @@
 ---
 label: Release Title 1
-hide_body: 
-is_partial: 
+hide_body: false
+is_partial: false
 fields:
 - name: layout
   label: Layout
   type: text
-  hidden: false
+  hidden: true
   default: ''
 - name: title
   label: Title
-  type: text
-  hidden: false
-  default: ''
-- name: release-date
-  label: Release date
   type: text
   hidden: false
   default: ''
@@ -33,15 +28,14 @@ fields:
   type: field_group_list
   fields:
   - name: category
-    label: Category
     type: tag_list
     hidden: false
     default: ''
-  - name: url
-    label: Url
-    type: text
-    hidden: false
-    default: ''
+    label: Link Text
+    description: e.g. Buy physical on Juno, Stream on Spotify
+  - type: text
+    name: url
+    label: URL
   hidden: false
   default: ''
 - name: tracklist
@@ -60,13 +54,15 @@ fields:
     default: ''
   hidden: false
   default: ''
-- name: main-image
-  label: Main image
-  type: text
-  hidden: false
+- type: datetime
+  name: release-date
+  label: Release Date
   default: ''
-- name: back-image
-  label: Back image
-  type: text
-  hidden: false
-  default: ''
+- type: file
+  name: main-image
+  label: Main Image
+  description: Picture of the front side of the record
+- type: file
+  name: back-image
+  label: Back Image
+  description: The reverse side of the record
