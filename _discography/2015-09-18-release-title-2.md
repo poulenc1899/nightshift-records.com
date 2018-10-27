@@ -2,7 +2,7 @@
 title: Release Title 1
 layout: release
 release-date: 18th September 2015
-label: International Feel
+label: Something New
 format: Vinyl 12-inch, Digital
 links:
 - category: Buy Physical
