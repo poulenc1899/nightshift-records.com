@@ -58,6 +58,9 @@ fields:
   name: release-date
   label: Release Date
   default: ''
+  config:
+    date_format: DD.MM.YYYY
+    time_format: " "
 - type: file
   name: main-image
   label: Main Image
