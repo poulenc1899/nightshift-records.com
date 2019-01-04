@@ -1,25 +1,29 @@
 ---
-title: Ookf Fieegj - Dooovvvvv
+title: Private Agenda - Full Moon
 layout: release
-release-date: 18th September 2015
-label: Something New
-format: Vinyl 12-inch, Digital, A, B
+release-date: 2016-06-14 22:00:00 +0000
+label: Nightshift
+format: Digital
 links:
-- category: Buy Physical
-  url: https://www.juno.co.uk/products/private-agenda-paralysed/586063-01/
 - category: Buy Digital
-  url: https://www.junodownload.com/products/private-agenda-paralysed/2888681-02/
+  url: https://www.amazon.co.uk/Full-Moon-Private-Agenda/dp/B01GWY5V6K/ref=sr_1_3?s=dmusic&ie=UTF8&qid=1528460124&sr=1-3-mp3-albums-bar-strip-0&keywords=private+agenda
 - category: Stream
-  url: https://open.spotify.com/album/2kdzJr7tZMA8b75iPoceaL
+  url: https://open.spotify.com/album/2h9aXCIynKrCCpw0frTFEo
 tracklist:
-- title: track 1
-  duration: '05:05'
-- title: track 2
-  duration: '05:51'
-- title: track 3
-  duration: '08:38'
-main-image: assets/img/2-front.jpg
-back-image: assets/img/2-back.jpg
+- title: Full Moon
+  duration: '06:58'
+- title: Full Moon (Cazzo Pazzo Full Time Remix)
+  duration: '05:40'
+- title: Full Moon (Life on Planets Remix)
+  duration: '07:06'
+- title: Full Moon (Ichisan Disko Mix)
+  duration: '06:52'
+- title: Full Moon (Ichisan Samba Dub Mix)
+  duration: '07:03'
+- title: Full Moon (Radio Edit)
+  duration: '03:59'
+main-image: "/assets/160510-Full-Moon-Cover-Art.jpg"
+back-image: "/assets/Bildschirmfoto 2019-01-04 um 17.35.09.png"
 
 ---
 Berliner Verkehrsbetriebe (BVG)  
